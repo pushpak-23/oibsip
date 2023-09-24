@@ -11,18 +11,20 @@
       <main class="main">
         <h1 class="heading">Temperature Converter</h1>
         <div class="input-container">
-          <input class="input" type="number" id="inputTemp" />
+          <input class="input" type="number" id="inputTemp" value="0" />
           <label for="inputTemp">Choose unit:</label>
           <select name="temp" id="units">
             <option value="fahrenheit">Fahrenheit</option>
-            <option value="celsius">Celsius</option>
+            <option value="celsius" selected>Celsius</option>
             <option value="kelvin">Kelvin</option>
           </select>
         </div>
         <button class="btn" onclick="convertTemperature()">Convert</button>
         <div class="result-container">
-          <p class="result" id="convertedTemp">0 fahrenheit</p>
+          <p class="result" id="convertedTemp">0 Celsius</p>
         </div>
+      </main>
+    </div>
       </main>
     </div>
 
